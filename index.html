@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS-Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="score-board">
+            <div class="logo">
+                <img src="assets/logo.svg" alt="">
+            </div>
+            <div class="score">
+                <h1>score</h1>
+                <h2>0</h2>
+            </div>
+        </div>
+        <div class="main-zone">
+            <div class="game-zone">
+                <div class="hand paper">
+                    <img src="assets/Paper.png" alt="">
+                </div>
+                <div class="hand scissors">
+                    <img src="assets/Scissors.png" alt="">
+                </div>
+                <div class="hand rock">
+                    <img src="assets/Rock.png" alt="">
+                </div>
+            </div>
+            <div class="result-zone">
+                <div class="me">
+                    <h2>YOU PICKED</h2>
+                    <div class="my-choice">
+                        <img id="myChoiceImg" src="assets/Paper.png" alt="">
+                    </div>
+                </div>
+                <div class="result">
+                    <h2>YOU WIN!</h2>
+                    <div class="restart-game">PLAY AGAIN</div>
+                </div>
+                <div class="computer">
+                    <h2>THE HOUSE PICKED</h2>
+                    <div class="cp-choice">
+                        <img id="cpChoiceImg" src="assets/Paper.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
